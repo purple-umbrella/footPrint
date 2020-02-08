@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrap{
+    margin: 50px auto 0;
+    /* border: 1px solid; */
+}
+#wrap .mineNum{
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    color: #999;
+}
+#wrap table{
+    margin: 0 auto;
+    box-shadow: 2px 2px 8px 0px #888;
+}
+#wrap table td{
+    width: 18px;
+    height: 18px;
+    background-color: rgb(185, 185, 185);
+    border: 2px solid;
+    border-color: #fff #888 #888 #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+
+}
+#wrap table td.mine{
+    background-image:url("../img/mine.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#wrap table td.flag{
+    background-image:url("../img/flag.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#wrap table td.zero{
+    /* border: 2px solid #888; */
+    background: #999;
+}
+#wrap table td.firstMine{
+    border: 2px solid rgb(240, 175, 175);
+}
+
+#wrap .btn{
+    text-align: center;
+    margin-bottom: 5px;
+}
+#wrap .btn span{
+    display: inline-block;
+    padding: 1px 2px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:14px;
+} 
+#wrap .btn span:hover{
+    background-color: #999;
+    color: #fff;
+}
+#wrap .btn span.active{
+    background-color: #999;
+    color: #fff;
+}
+
+#wrap table td.one{
+    color: green;
+}
+#wrap table td.two{
+    color: blue;
+}
+#wrap table td.three{
+    color: rgb(110, 69, 138);
+}
+#wrap table td.four{
+    color: rgb(172, 138, 26);
+}
+#wrap table td.five{
+    color: rgb(187, 41, 155);
+}
+#wrap table td.six{
+    color: rgb(202, 21, 21);
+}
